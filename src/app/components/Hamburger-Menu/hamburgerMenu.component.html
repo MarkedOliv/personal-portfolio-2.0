@@ -1,0 +1,16 @@
+<nav id="hamburger-nav">
+  <div class="logo">Oliver Márquez</div>
+  <div class="hamburger-menu">
+    <div class="hamburger-icon" (click)='toggleMenu()' [class.open]="isOpen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu-links" [class.open]="isOpen">
+      <li><a href="#about" (click)='toggleMenu()' [class.open]="isOpen">About</a></li>
+      <li><a href="#experience" (click)='toggleMenu()' [class.open]="isOpen">Experience</a></li>
+      <li><a href="#projects" (click)='toggleMenu()' [class.open]="isOpen">Projects</a></li>
+      <li><a href="#contact" (click)='toggleMenu()' [class.open]="isOpen">Contact</a></li>
+    </div>
+  </div>
+</nav>
