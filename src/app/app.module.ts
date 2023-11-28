@@ -11,6 +11,8 @@ import { ProfileComponent } from './components/Profile/profile.component';
 import { AboutComponent } from './components/About/about.component';
 import { ExperienceComponent } from './components/Experience/experience.component';
 import { ProjectsComponent } from './components/Projects/projects.component';
+import { ContactComponent } from './components/Contact/contact.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,11 +23,10 @@ import { ProjectsComponent } from './components/Projects/projects.component';
     AboutComponent,
     ExperienceComponent,
     ProjectsComponent,
+    ContactComponent,
   ],
-  imports: [
-    BrowserModule,
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
