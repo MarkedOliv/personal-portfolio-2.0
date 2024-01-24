@@ -20,6 +20,8 @@ import { ProjectsComponent } from './components/Projects/projects.component';
 import { ContactComponent } from './components/Contact/contact.component';
 import { FooterComponent } from './components/Footer/footer.component';
 
+import { SwitchLangComponent } from './components/Switch-lang/switch-lang.component';
+
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, '../assets/i18n/', '.json');
 }
@@ -36,6 +38,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ProjectsComponent,
     ContactComponent,
     FooterComponent,
+    SwitchLangComponent,
   ],
   imports: [
     BrowserModule,
