@@ -1,0 +1,11 @@
+{
+  "menu": {
+    "aboutMe": "About Me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "copyright": {
+    "rights": "All Rights Reserved"
+  }
+}

@@ -1,6 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+
 import { AppComponent } from './app.component';
 
 import { LayoutComponent } from './components/Layout/layout.component';
@@ -13,6 +19,10 @@ import { ExperienceComponent } from './components/Experience/experience.componen
 import { ProjectsComponent } from './components/Projects/projects.component';
 import { ContactComponent } from './components/Contact/contact.component';
 import { FooterComponent } from './components/Footer/footer.component';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, '../assets/i18n/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -27,8 +37,18 @@ import { FooterComponent } from './components/Footer/footer.component';
     ContactComponent,
     FooterComponent,
   ],
-  imports: [BrowserModule],
-  providers: [],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient],
+      },
+    }),
+  ],
+  providers: [HttpClient],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
