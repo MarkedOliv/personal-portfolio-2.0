@@ -1,9 +1,17 @@
 {
+  "general": {
+    "year": "year",
+    "education": "Education"
+  },
   "menu": {
     "aboutMe": "About Me",
     "experience": "Experience",
     "projects": "Projects",
     "contact": "Contact"
+  },
+  "about": {
+    	"getToKnowMe": "Get to Know Me More",
+      "desc": "I am a web developer mainly interested in BackEnd but I have the necessary skills to work wherever I am needed. I also have a high sense of responsibility, I’m proactive, I'm good at working in a team and quick adaptation to new technologies and systems, I am a quick learner and willing to take on tasks of medium and great complexity."
   },
   "copyright": {
     "rights": "All Rights Reserved"
