@@ -12,7 +12,11 @@
   "about": {
     "getToKnowMe": "Conóceme Más",
     "desc": "Soy un desarrollador web interesado principalmente en el área de BackEnd pero con las habilidades necesarias para desenvolverse en el lugar que me necesiten. También soy una persona con alto sentido de la responsabilidad, proactiva, con facilidad para el trabajo en equipo y el trato con el público, con iniciativa y rápida adaptación a las nuevas tecnologías y sistemas, facilidad para el aprendizaje y disposición para asumir tareas de mediana y gran complejidad. "
-},
+  },
+  "contact": {
+    "getInTouch": "Ponte en contacto",
+    "contactMe": "Contáctame"
+  },
   "copyright": {
     "rights": "Todos los Derechos Reservados"
   }
