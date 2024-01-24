@@ -8,6 +8,13 @@
     "hello": "Hola, soy",
     "downloadCv": "Descargar CV"
   },
+  "experience": {
+    "exploreMy": "Explora Mi",
+    "frontendDev": "Desarrollo Frontend",
+    "backendDev": "Desarrollo Backend",
+    "intermediate": "Intermedio",
+    "basic": "Básico"
+  },
   "menu": {
     "aboutMe": "Sobre Mí",
     "experience": "Experiencia",

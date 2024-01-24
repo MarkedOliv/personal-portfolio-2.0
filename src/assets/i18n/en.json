@@ -8,6 +8,13 @@
     "hello": "Hello, I'm",
     "downloadCv": "Download CV"
   },
+  "experience": {
+    "exploreMy": "Explore My",
+    "frontendDev": "Frontend Development",
+    "backendDev": "Backend Development",
+    "intermediate": "Intermediate",
+    "basic": "Basic"
+  },
   "menu": {
     "aboutMe": "About Me",
     "experience": "Experience",
