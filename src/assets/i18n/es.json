@@ -1,7 +1,12 @@
 {
   "general": {
     "year": "año",
-    "education": "Educación"
+    "education": "Educación",
+    "developer": "Desarrollador Full Stack"
+  },
+  "profile": {
+    "hello": "Hola, soy",
+    "downloadCv": "Descargar CV"
   },
   "menu": {
     "aboutMe": "Sobre Mí",
