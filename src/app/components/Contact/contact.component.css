@@ -8,9 +8,11 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  color: var(--white);
 }
 
 .title {
+  color: var(--white);
   font-size: 3rem;
   text-align: center;
 }
@@ -35,9 +37,9 @@ section {
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
-  border: 0.1rem solid rgb(53, 53, 53);
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  border: 0.1rem solid var(--light-black);
+  border-color: var(--light-gray);
+  background: var(--white);
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -48,16 +50,24 @@ section {
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
+  background-color: var(--white);
 }
 
 .contact-info-container p {
   font-size: larger;
 }
 
+.contact-info-container p, .contact-info-container p a{
+  background-color: var(--white);
+  color: var(--light-black);
+}
+
 .contact-icon {
   cursor: default;
+  background-color: var(--white);
 }
 
 .email-icon {
   height: 2.5rem;
+  background-color: var(--white);
 }

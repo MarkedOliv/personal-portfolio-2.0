@@ -3,6 +3,7 @@
   top: 90vh;
   right: 20vh;
   z-index: 1000;
+  background-color: transparent;
 }
 
 .language-switch button {
@@ -10,7 +11,7 @@
   padding: 12px;
   font-weight: bold;
   font-size: 20px;
-  background-color: #FFFFFF;
+  background-color: var(--dark-white);
   transition: all 300ms ease;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
@@ -22,13 +23,13 @@
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
-  border: 0.1rem solid rgb(53, 53, 53);
+  border: 0.1rem solid var(--light-black);
 }
 
 
 .language-switch button:hover {
-  background-color: rgb(53, 53, 53);
-  color: #FFFFFF;
+  background-color: var(--light-black);
+  color: var(--white);
   cursor: pointer;
   transition: background-color 0.5s ease;
 }

@@ -8,9 +8,11 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  color: var(--white);
 }
 
 .title {
+  color: var(--white);
   font-size: 3rem;
   text-align: center;
 }
@@ -51,14 +53,14 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: var(--dark-white);
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
-  border: 0.1rem solid rgb(53, 53, 53);
-  border-color: rgb(163, 163, 163);
+  border: 0.1rem solid var(--light-black);
+  border-color: var(--light-gray);
   text-align: center;
 }
 
@@ -67,7 +69,8 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: var(--light-black);
+  background-color: var(--dark-white);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -93,6 +96,14 @@ article {
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
+}
+
+.article-container,
+.article-container article,
+.article-container article img,
+.article-container article h3,
+.article-container article p {
+  background-color: var(--dark-white);
 }
 
 article .icon {

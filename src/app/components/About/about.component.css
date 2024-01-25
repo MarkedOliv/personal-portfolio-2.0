@@ -8,7 +8,6 @@ section {
 
 #about {
   position: relative;
-
 }
 
 .about-containers {
@@ -44,15 +43,19 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: var(--dark-white);
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
-  border: 0.1rem solid rgb(53, 53, 53);
-  border-color: rgb(163, 163, 163);
+  border: 0.1rem solid var(--light-black);
+  border-color: var(--light-gray);
   text-align: center;
+}
+
+.details-container h3, .details-container p, .details-container .icon {
+  background-color: var(--dark-white);
 }
 
 .section__pic-container {
@@ -64,11 +67,13 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  color: var(--white);
 }
 
 .title {
   font-size: 3rem;
   text-align: center;
+  color: var(--white);
 }
 
 .section-container {
@@ -80,4 +85,8 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+}
+
+.text-container p {
+  color: var(--white);
 }

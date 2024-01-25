@@ -16,22 +16,23 @@ nav {
 }
 
 a {
-  color: black;
+  color: var(--white);
   text-decoration: none;
-  text-decoration-color: white;
-  -moz-text-decoration-color: white;
+  text-decoration-color: var(--light-black);
+  -moz-text-decoration-color: var(--light-black);
 }
 
 a:hover {
-  color: gray;
+  color: var(--light-black);
   text-decoration: underline;
   text-underline-offset: 0.8rem;
-  text-decoration-color: rgb(181, 181, 181);
-  -moz-text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: var(--light-gray);
+  -moz-text-decoration-color: var(--light-gray);
 }
 
 .logo{
   font-size: 2rem;
+  color: var(--white);
 }
 
 .logo:hover {
